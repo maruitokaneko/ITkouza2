@@ -4,6 +4,7 @@ var mysql = require('mysql');
 var connection =mysql.createConnection({
   host : 'kaneko-db.cytjkt9qynol.ap-northeast-1.rds.amazonaws.com',
   user : 'kaneko',
+  password : 'password',
   database : 'kaneko'
 });
 connection.connect();
